@@ -2,6 +2,7 @@ package com.example.gitpractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.gitpractice.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Dev
-
+        //This is test Push
+        Toast.makeText(this@MainActivity, "login functionality", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this@MainActivity, "login functionality", Toast.LENGTH_SHORT).show()
     }
 }
