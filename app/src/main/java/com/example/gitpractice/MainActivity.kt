@@ -15,6 +15,5 @@ class MainActivity : AppCompatActivity() {
         // Dev
         //This is test Push
         Toast.makeText(this@MainActivity, "login functionality", Toast.LENGTH_SHORT).show()
-        Toast.makeText(this@MainActivity, "login functionality", Toast.LENGTH_SHORT).show()
     }
 }
